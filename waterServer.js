@@ -10,4 +10,7 @@ http.createServer(function(req,res) {
 	res.write("This is a water website");
 	res.end();
 });
+http.get('waterOpinions.txt',function (response){
+	reponse.send("./waterOpinions.txt");
+})
 }).listen(8089);
