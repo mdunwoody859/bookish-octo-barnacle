@@ -1,0 +1,24 @@
+{
+  "name": "bookish-octo-barnacle",
+  "version": "1.0.0",
+  "description": "Example thing w Steven for our week1 stuff",
+  "main": "waterServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdunwoody859/bookish-octo-barnacle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express":"4.16.2",
+    "fs":"0.0.1-security"
+  },
+
+  "bugs": {
+    "url": "https://github.com/mdunwoody859/bookish-octo-barnacle/issues"
+  },
+  "homepage": "https://github.com/mdunwoody859/bookish-octo-barnacle#readme"
+}

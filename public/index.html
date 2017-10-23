@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <h1>The Wonderful world of H2O!</h1>
+    <link rel="stylesheet" type="text/css" href="~/Week1/bookish-octo-barnacle/public/styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script> 
+        $("#00001").ready(function () {
+            $.get('waterOpinions.txt', function (data) {
+                $("#00001").text(data);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p id= "00001">"ah"</p>
+</body>
+<footer>
+    
+</footer>
+
+</html>
